@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Calibri', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #00273f;
+    color: #fff;
+}
+.container{
+    margin: 15%;
+    width: 90%;
+    max-width: 700px;
+    border: 0;
+    outline: 0;
+
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background: #fff;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    border-radius: 5px;
+
+
+}
+
+h1{
+    font-weight: 500;
+    font-size: 50px;
+
+
+}
+
+h1 span{
+    color: darkgreen;
+    border-bottom: 4px solid darkgreen;
+    padding-bottom: 5px;
+    
+}
+
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input#password-el{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+    width: 100%;
+    
+}
+.container input#length-el{
+    border: 0;
+    outline: 0;
+    background: darkgreen;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    width: 40%;
+
+}
+
+.container button img{
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 0;
+    outline: 0;
+}
+.container button#generatebutton{
+    border: 0;
+    outline: 0;
+    background: darkgreen;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    
+}
