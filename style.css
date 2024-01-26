@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: #00273f;
+    background: rgb(231, 226, 226);
     color: #fff;
 }
 .container{
@@ -32,15 +32,16 @@ body{
 }
 
 h1{
-    font-weight: 500;
+    color: black;
+    font-weight: 900px;
     font-size: 50px;
 
 
 }
 
 h1 span{
-    color: darkgreen;
-    border-bottom: 4px solid darkgreen;
+    color: red;
+    border-bottom: 4px solid red;
     padding-bottom: 5px;
     
 }
@@ -60,10 +61,10 @@ h1 span{
 .container input#length-el{
     border: 0;
     outline: 0;
-    background: darkgreen;
-    color: #fff;
+    background: red;
+    color: black;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,8 +73,13 @@ h1 span{
     margin-top: 0px;
     margin-bottom: 25px;
     width: 40%;
-
+    opacity: 1;
 }
+::placeholder{
+    color: black;
+    opacity: 1; 
+    font-weight: 700;
+  }
 
 .container button img{
     width: 25px;
@@ -87,10 +93,10 @@ h1 span{
 .container button#generatebutton{
     border: 0;
     outline: 0;
-    background: darkgreen;
-    color: #fff;
+    background: red;
+    color: black;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 700;
     display: flex;
     align-items: center;
     justify-content: center;
